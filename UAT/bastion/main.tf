@@ -1,6 +1,6 @@
 #======================= Bastion root module ========================
 module "bastion" {
-  source = "git::https://gitlab.com/tynchtyk642/terraform-modules.git//bastion?ref=main"
+  source = "git::https://github.com/tynchtyk642/terraform-modules.git//bastion?ref=main"
 
   bastion_name = var.bastion_name
 
