@@ -1,6 +1,6 @@
 #===================== EKS Cluster's root module =========================
 module "eks_cluster" {
-  source = "git::https://tynchtyk642@github.com/tynchtyk642/terraform-modules.git//eks_cluster?ref=main"
+  source = "git::https://tynchtyk642@github.com/tynchtyk642/terraform-aws-modules.git//eks_cluster?ref=main"
 
   vpc_id      = data.terraform_remote_state.networking.outputs.vpc_id
   eks_name    = "test1"
